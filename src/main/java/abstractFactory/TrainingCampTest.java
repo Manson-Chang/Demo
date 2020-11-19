@@ -11,7 +11,7 @@ public class TrainingCampTest{
         Adventurer memberA = trainingCamp.trainAdventurer();
         memberA.getType();
 
-        //用鬥士訓練營訓練鬥士
+        //用鬥士訓練營訓練鬥士  
         trainingCamp = new WarriorTrainingCamp();
         Adventurer memberB = trainingCamp.trainAdventurer();
         memberB.getType();
